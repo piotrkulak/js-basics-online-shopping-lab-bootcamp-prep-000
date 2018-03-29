@@ -20,7 +20,8 @@ function viewCart() {
 }
 
 function total() {
-  // write your code here
+ var sum = sumUpPrices()
+  return sum
 }
 
 function removeFromCart(item) {
